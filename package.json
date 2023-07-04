@@ -4,6 +4,7 @@
   "description": "wasm bridges for language interpretors like `php`, `perl`, `ruby`, `python`, `cpython`, important c libraries, and other important libraries",
   "main": "index.js",
   "scripts": {
+    "pre-install": "npm install node-gyp -g",
     "test": "echo \"Error: no test specified\" && exit 1 https://github.com/desktop-cgi/bridge-wasm.git"
   },
   "keywords": [],
@@ -17,9 +18,10 @@
     "@php-wasm/node": "^0.2.0",
     "@php-wasm/universal": "^0.2.0",
     "php-wasm": "^0.0.7",
-    "python-wasm": "^0.28.1", 
+    "python-wasm": "^0.28.1",
     "ruby-head-wasm-emscripten": "^2.0.0",
     "ruby-head-wasm-wasi": "^2.0.0",
-    "ruby-wasm-emscripten": "^0.1.0"
+    "ruby-wasm-emscripten": "^0.1.0",
+    "wasm-run": "^0.1.2"
   }
 }
