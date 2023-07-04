@@ -17,7 +17,7 @@
     "@php-wasm/node": "^0.2.0",
     "@php-wasm/universal": "^0.2.0",
     "php-wasm": "^0.0.7",
-    "python-wasm": "^0.28.1",
+    "python-wasm": "^0.28.1", 
     "ruby-head-wasm-emscripten": "^2.0.0",
     "ruby-head-wasm-wasi": "^2.0.0",
     "ruby-wasm-emscripten": "^0.1.0"
