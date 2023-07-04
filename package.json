@@ -15,13 +15,22 @@
     "@cowasm/py-cython": "^1.1.0",
     "@cowasm/python-pip": "^1.0.0",
     "@cowasm/python-setuptools": "^1.1.0",
+    "@php-wasm/cli": "^0.2.0",
     "@php-wasm/node": "^0.2.0",
+    "@php-wasm/progress": "^0.2.0",
+    "@php-wasm/scopes": "^0.2.0",
     "@php-wasm/universal": "^0.2.0",
+    "@php-wasm/util": "^0.2.0",
+    "@php-wasm/web": "^0.2.0",
+    "@php-wasm/web-service-worker": "^0.2.0",
+    "napi-wasm": "^1.0.1",
     "php-wasm": "^0.0.7",
     "python-wasm": "^0.28.1",
     "ruby-head-wasm-emscripten": "^2.0.0",
     "ruby-head-wasm-wasi": "^2.0.0",
     "ruby-wasm-emscripten": "^0.1.0",
-    "wasm-run": "^0.1.2"
+    "wasm-ffi": "^0.3.0",
+    "wasm-run": "^0.1.2",
+    "wasmedge-core": "^0.9.0"
   }
 }
