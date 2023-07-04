@@ -1,7 +1,7 @@
 {
   "name": "bridge-wasm",
   "version": "1.0.0",
-  "description": "wasm bridges for langauge interpretors like `php`, `perl`, `ruby`, `python`, `cpython`, important c libraries, and other important libraries",
+  "description": "wasm bridges for language interpretors like `php`, `perl`, `ruby`, `python`, `cpython`, important c libraries, and other important libraries",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1 https://github.com/desktop-cgi/bridge-wasm.git"
