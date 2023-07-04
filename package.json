@@ -1,0 +1,25 @@
+{
+  "name": "bridge-wasm",
+  "version": "1.0.0",
+  "description": "wasm bridges for langauge interpretors, important c libraries, and other important libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1 https://github.com/desktop-cgi/bridge-wasm.git"
+  },
+  "keywords": [],
+  "author": "Desktop-CGI",
+  "license": "MIT",
+  "dependencies": {
+    "@chriskoch/perl-wasm": "^1.0.0",
+    "@cowasm/py-cython": "^1.1.0",
+    "@cowasm/python-pip": "^1.0.0",
+    "@cowasm/python-setuptools": "^1.1.0",
+    "@php-wasm/node": "^0.2.0",
+    "@php-wasm/universal": "^0.2.0",
+    "php-wasm": "^0.0.7",
+    "python-wasm": "^0.28.1",
+    "ruby-head-wasm-emscripten": "^2.0.0",
+    "ruby-head-wasm-wasi": "^2.0.0",
+    "ruby-wasm-emscripten": "^0.1.0"
+  }
+}
