@@ -1,7 +1,7 @@
 {
   "name": "bridge-wasm",
   "version": "1.1.0",
-  "description": "wasm bridges for language interpretors like `php`, `perl`, `python`, `cpython`, `ruby`, `julia`, `cpp`, `golang`, `ocaml`, `lua`, `napi`, `wasm-run`, important c libraries, and other important libraries",
+  "description": "wasm bridges for language interpretors like `php`, `perl`, `python`, `cpython`, `ruby`, `julia`, `cpp`, `golang`, `ocaml`, `lua`, `napi`, `wasm-run`, `r-lang`, important c libraries, and other important libraries",
   "main": "index.js",
   "scripts": {
     "pre-install": "npm install node-gyp -g",
