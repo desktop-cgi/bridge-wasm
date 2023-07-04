@@ -11,6 +11,7 @@
   "author": "Desktop-CGI",
   "license": "MIT",
   "dependencies": {
+    "@cckim/go-wasm": "^1.0.0",
     "@chriskoch/cpp-wasm": "^1.0.2",
     "@chriskoch/golang-wasm": "^1.0.0",
     "@chriskoch/julia-wasm": "^1.0.4",
@@ -43,6 +44,7 @@
     "ruby-wasm-emscripten": "^0.1.0",
     "wasm-ffi": "^0.3.0",
     "wasm-run": "^0.1.2",
-    "wasmedge-core": "^0.9.0"
+    "wasmedge-core": "^0.9.0",
+    "webr": "^0.1.1"
   }
 }
