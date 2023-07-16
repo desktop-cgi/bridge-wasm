@@ -5,7 +5,6 @@
 
 [bridge-wasm](./docs/Bridge-Wasm.jpg)
 
-Credit: [many wasm packages taken from @polylang.io](https://github.com/chris-koch-penn/polylang.io/tree/master/wasm)
 
 Expected risks or considerations for your designing for multiple interpreter designs:
 
@@ -17,3 +16,7 @@ Expected risks or considerations for your designing for multiple interpreter des
 - File and OS access limitations or allowance based on runtime needs and models/ architecture
 
 Expecting the design to replace the [desktop-cgi](https://github.com/desktop-cgi/desktop-cgi) runtime embedding design for multiple interpreted languages and databases; and hopefully other executables. 
+
+<!-- 16-07-2023 -->
+
+Credit: [many wasm packages taken from @polylang.io](https://github.com/chris-koch-penn/polylang.io/tree/master/wasm)
