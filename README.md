@@ -7,3 +7,11 @@
 
 Credit: [many wasm packages taken from @polylang.io](https://github.com/chris-koch-penn/polylang.io/tree/master/wasm)
 
+Expected risks or considerations for your desing for multiple interpreter designs:
+
+- Load times (load wasm's during server start, and invoke plus run code dynamically based on need recommended)
+- Memory limits, usages, leaks, and security
+- Performance to OS based designs of serverless
+- Performance to OS based designs of VM
+- Sandboxing and security restrictions based on nodejs code
+- File and OS access limitations or allowance based on runtime needs and models/ architecture
