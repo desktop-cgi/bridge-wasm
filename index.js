@@ -2,9 +2,26 @@
 
 function InterfaceWASM() {
 
+    var wasmObject;
+    
+    this.wasmObject = function() {
+        return new Error("Interface not set up");
+    }
+
+    this.init = function() {
+        return new Error("Interface not set up");
+    }
+
+    this.run = function() {
+        return new Error("Interface not set up");
+    }
 }
 
-var phpwasm = require("./node_modules/php-wasm/php-node");
+function NodeVM(config) {
+    InterfaceWASM.call(this, config);
+}
+
+// var phpwasm = require("./node_modules/php-wasm/php-node");
 // var php = new phpwasm(`<? echo "test"`);
 // php.run(`<? echo "test"`);
 
