@@ -16,4 +16,4 @@ Expected risks or considerations for your designing for multiple interpreter des
 - Sandboxing and security restrictions based on nodejs code
 - File and OS access limitations or allowance based on runtime needs and models/ architecture
 
-Expecting the design to replace the [desktop-cgi](https://github.com/desktop-cgi/desktop-cgi) runtime embedding design for multiple interpreted languages and databases. 
+Expecting the design to replace the [desktop-cgi](https://github.com/desktop-cgi/desktop-cgi) runtime embedding design for multiple interpreted languages and databases; and hopefully other executables. 
